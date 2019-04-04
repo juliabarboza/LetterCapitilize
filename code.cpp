@@ -12,7 +12,7 @@ string LetterCapitalize(string str) {
       {
           str2 += toupper(str[i]);
       }
-      else if(str[i-1]<'a'  || str[i-1]<'A')
+      else if(str[i-1]<'a' & str[i-1]<'A')
       {
           str2 += toupper(str[i]);
       }
